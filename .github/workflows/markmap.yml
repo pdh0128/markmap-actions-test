@@ -15,9 +15,6 @@ permissions:
 jobs:
   markmap:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.markmap.outputs.page-url }}
     steps:
       - uses: actions/checkout@v4
 
