@@ -22,4 +22,4 @@ jobs:
         uses: bssm-oss/markmap-actions@main
         with:
           files: '**/*.md'
-          # updated: 2026-05-10f
+          # updated: 2026-05-10g
